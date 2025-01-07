@@ -38,6 +38,10 @@ a {
     cursor: pointer;
 }
 
+.section-head {
+    text-align: center;
+}
+
 .section-title {
     color: #181818;
     font-size: 35px;
@@ -177,7 +181,6 @@ nav {
 }
 
 .what-i-do-container .section-head {
-    text-align: center;
     width: 60%;
     margin: 0 auto;
 }
@@ -203,3 +206,48 @@ nav {
 .card-title {
     margin: 30px 0px 20px;
 }
+
+/* Resume Summary Section Style */
+.resume-summary {
+    margin-bottom: 115px;
+}
+
+.resume-summary-container {
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.my-edu-title,
+.my-exp-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 40px;
+}
+
+.resume-info-heading {
+    font-size: 25px;
+    font-size: 700;
+    color: #474747;
+}
+
+.resume-info-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin: 10px 0px 20px;
+}
+
+.h-row {
+    color: #D1D1D1;
+    margin: 30px 0px;
+}
+
+.resume-btn {
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+
